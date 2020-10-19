@@ -11,6 +11,7 @@ app.listen(port, () => console.log(`connected successfully ${port}`));
 app.get("/users", userRouter);
 app.post("/create", userRouter);
 app.get("/:id", userRouter);
+app.get("/:id", userRouter);
 
 app.get("/", (req, res) => {
   //   console.log("[test]");
